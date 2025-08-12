@@ -14,3 +14,6 @@ pnpm-debug.log*
 .next/
 node_modules/
 
+.next/
+node_modules/
+

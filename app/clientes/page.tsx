@@ -1,4 +1,4 @@
-﻿export const metadata = { title: "Clientes | FGC Proyectos" };
+export const metadata = { title: "Clientes | FGC Proyectos" };
 
 type Cliente = {
   name: string;

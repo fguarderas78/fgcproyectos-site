@@ -157,7 +157,7 @@ export default function Page() {
               Ver clientes
             </a>
             <a
-              href="/galería"
+              href="/galeria"
               className="inline-block rounded-2xl border border-[#123147]/30 text-[#123147] px-5 py-3 font-medium hover:bg-[#123147] hover:text-white transition"
             >
               Ver galería
@@ -168,3 +168,4 @@ export default function Page() {
     </section>
   );
 }
+
