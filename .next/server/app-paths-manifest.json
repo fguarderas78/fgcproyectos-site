@@ -1,6 +1,5 @@
 {
-  "/servicios/construccion/page": "app/servicios/construccion/page.js",
-  "/contacto/page": "app/contacto/page.js",
-  "/page": "app/page.js",
-  "/servicios/ia/page": "app/servicios/ia/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/quienes-somos/page": "app/quienes-somos/page.js",
+  "/page": "app/page.js"
 }
