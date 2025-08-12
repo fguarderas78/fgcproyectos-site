@@ -43,7 +43,7 @@ export async function POST(req: Request) {
         to: [TO],
         reply_to: email,
         subject: `Nuevo contacto desde la web - ${nombre}`,
-        text: `Nombre: ${nombre}\nEmail: ${email}\nTeléfono: ${telefono}\n\nMensaje:\n${mensaje}`,
+        text: `Nombre: ${nombre}\nEmail: ${email}\nTelÃ©fono: ${telefono}\n\nMensaje:\n${mensaje}`,
       }),
     });
 

@@ -9,13 +9,13 @@ Visita http://localhost:3000
 
 ## Deploy en Vercel
 1. Sube este repo a GitHub.
-2. En Vercel: New Project → importa el repo → Framework Next.js → Deploy.
-3. Agrega los dominios `fgcproyectos.com` y `www.fgcproyectos.com` en Settings → Domains.
+2. En Vercel: New Project â†’ importa el repo â†’ Framework Next.js â†’ Deploy.
+3. Agrega los dominios `fgcproyectos.com` y `www.fgcproyectos.com` en Settings â†’ Domains.
 4. En Squarespace (DNS):
-   - A (apex `fgcproyectos.com`) → 76.76.21.21
-   - CNAME (`www`) → cname.vercel-dns.com
+   - A (apex `fgcproyectos.com`) â†’ 76.76.21.21
+   - CNAME (`www`) â†’ cname.vercel-dns.com
 
-## Personalización
+## PersonalizaciÃ³n
 - Colores en `tailwind.config.js`.
 - Contenidos en `/app/*`.
-- Reemplaza `/public/logo.png` por tu logo en alta resolución.
+- Reemplaza `/public/logo.png` por tu logo en alta resoluciÃ³n.

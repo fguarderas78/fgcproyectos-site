@@ -1,4 +1,4 @@
-﻿"use client";
+ï»¿"use client";
 
 import { useEffect, useState } from "react";
 
@@ -87,7 +87,7 @@ export default function Gallery({ images }: { images: Img[] }) {
               className="absolute -top-3 -right-3 rounded-full bg-white/90 text-slate-900 px-3 py-1 shadow hover:bg-white"
               aria-label="Cerrar"
             >
-              ✕
+              âœ•
             </button>
             <button
               type="button"
@@ -95,7 +95,7 @@ export default function Gallery({ images }: { images: Img[] }) {
               className="absolute inset-y-0 left-0 my-auto h-12 w-12 rounded-full bg-white/90 text-slate-900 shadow hover:bg-white"
               aria-label="Anterior"
             >
-              ‹
+              â€¹
             </button>
             <button
               type="button"
@@ -103,7 +103,7 @@ export default function Gallery({ images }: { images: Img[] }) {
               className="absolute inset-y-0 right-0 my-auto h-12 w-12 rounded-full bg-white/90 text-slate-900 shadow hover:bg-white"
               aria-label="Siguiente"
             >
-              ›
+              â€º
             </button>
           </div>
         </div>

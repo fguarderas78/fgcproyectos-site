@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 type Servicio = {
   title: string;
@@ -96,11 +96,11 @@ export default function Page() {
       >
         <div className="container py-12 md:py-14">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl text-white text-center mx-auto">
-            Soluciones integrales en construccion, diseno y gerencia de proyectos.
+            Soluciones integrales en Construcción, Diseño y gerencia de proyectos.
           </h1>
           <p className="mt-3 max-w-3xl text-lg md:text-xl text-slate-200 text-center mx-auto">
-            Acompanamos a nuestros clientes con direccion de proyectos, asesorias y diseno tecnico,
-            respaldados por metodologias y datos para que sus obras avancen con calidad, costo y plazo controlados.
+            Acompanamos a nuestros clientes con Dirección de proyectos, asesorias y Diseño Técnico,
+            respaldados por Metodologías y datos para que sus obras avancen con calidad, costo y plazo controlados.
           </p>
           <div className="mt-5 flex justify-center">
             <span className="inline-block h-[2px] w-40 md:w-56 rounded-full bg-white/50" />
@@ -113,17 +113,17 @@ export default function Page() {
         </svg>
       </div>
 
-      {/* QUIENES SOMOS (blanco) */}
+      {/* Quiénes SOMOS (blanco) */}
       <div className="bg-white">
         <div className="container py-9">
-          <h2 className="text-3xl md:text-4xl font-semibold text-brand-navy">Quienes somos</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-brand-navy">Quiénes somos</h2>
           <p className="mt-3 max-w-4xl text-lg text-slate-800">
-            FGC Proyectos ofrece <span className="font-medium text-brand-navy">soluciones integrales en construccion, diseno y gerencia de proyectos</span>
-            para desarrollos residenciales, comerciales y corporativos. Brindamos asesoramiento tecnico desde el
-            pre–proyecto (normativa, permisos, factibilidades) hasta la ejecucion, control y cierre de obra.
+            FGC Proyectos ofrece <span className="font-medium text-brand-navy">soluciones integrales en Construcción, Diseño y gerencia de proyectos</span>
+            para desarrollos residenciales, comerciales y corporativos. Brindamos asesoramiento Técnico desde el
+            preâ€“proyecto (normativa, permisos, factibilidades) hasta la Ejecución, control y cierre de obra.
           </p>
           <p className="mt-3 max-w-4xl text-base md:text-lg text-slate-700">
-            Contamos con <span className="font-medium text-brand-navy">mas de 43 anos de experiencia</span> en proyectos publicos y privados,
+            Contamos con <span className="font-medium text-brand-navy">Más de 43 Años de experiencia</span> en proyectos publicos y privados,
             dentro y fuera de Guayaquil, con un enfoque en transparencia, cumplimiento y resultados.
           </p>
           <div className="mt-5">
@@ -131,13 +131,13 @@ export default function Page() {
               href="/quienes-somos"
               className="inline-block rounded-2xl border border-brand-navy/30 text-brand-navy px-5 py-3 font-medium hover:bg-brand-navy hover:text-white transition"
             >
-              Ver mas
+              Ver Más
             </Link>
           </div>
         </div>
       </div>
 
-      {/* SERVICIOS PRINCIPALES (botones con tono mas fuerte y bullets) */}
+      {/* SERVICIOS PRINCIPALES (botones con tono Más fuerte y bullets) */}
       <div id="servicios" className="bg-white">
         <div className="container py-9">
           <h2 className="text-3xl md:text-4xl font-semibold text-brand-navy">Servicios principales</h2>
@@ -184,7 +184,7 @@ export default function Page() {
                         shadow-sm transition-transform group-hover:translate-x-0.5
                       "
                     >
-                      →
+                      â†’
                     </span>
                   </div>
                 </Link>
@@ -196,3 +196,4 @@ export default function Page() {
     </section>
   );
 }
+

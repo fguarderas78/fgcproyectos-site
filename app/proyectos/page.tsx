@@ -1,12 +1,12 @@
-﻿export const metadata = { title: "Proyectos | FGC Proyectos" };
+ï»¿export const metadata = { title: "Proyectos | FGC Proyectos" };
 
 const proyectos = [
-  { title: "Proyecto 1", img: "/proyectos/proyecto1.jpg", desc: "Descripción breve del proyecto 1." },
-  { title: "Proyecto 2", img: "/proyectos/proyecto2.jpg", desc: "Descripción breve del proyecto 2." },
-  { title: "Proyecto 3", img: "/proyectos/proyecto3.jpg", desc: "Descripción breve del proyecto 3." },
-  { title: "Proyecto 4", img: "/proyectos/proyecto4.jpg", desc: "Descripción breve del proyecto 4." },
-  { title: "Proyecto 5", img: "/proyectos/proyecto5.jpg", desc: "Descripción breve del proyecto 5." },
-  { title: "Proyecto 6", img: "/proyectos/proyecto6.jpg", desc: "Descripción breve del proyecto 6." }
+  { title: "Proyecto 1", img: "/proyectos/proyecto1.jpg", desc: "DescripciÃ³n breve del proyecto 1." },
+  { title: "Proyecto 2", img: "/proyectos/proyecto2.jpg", desc: "DescripciÃ³n breve del proyecto 2." },
+  { title: "Proyecto 3", img: "/proyectos/proyecto3.jpg", desc: "DescripciÃ³n breve del proyecto 3." },
+  { title: "Proyecto 4", img: "/proyectos/proyecto4.jpg", desc: "DescripciÃ³n breve del proyecto 4." },
+  { title: "Proyecto 5", img: "/proyectos/proyecto5.jpg", desc: "DescripciÃ³n breve del proyecto 5." },
+  { title: "Proyecto 6", img: "/proyectos/proyecto6.jpg", desc: "DescripciÃ³n breve del proyecto 6." }
 ];
 
 export default function Page() {
@@ -15,7 +15,7 @@ export default function Page() {
       <div className="container py-12">
         <h1 className="text-4xl md:text-5xl font-bold text-brand-navy">Proyectos</h1>
         <p className="mt-4 max-w-3xl text-slate-700">
-          Algunos trabajos representativos. Consulte la <a href="/galeria" className="underline text-brand-navy">Galería de Proyectos</a> para más fotografías.
+          Algunos trabajos representativos. Consulte la <a href="/galeria" className="underline text-brand-navy">GalerÃ­a de Proyectos</a> para mÃ¡s fotografÃ­as.
         </p>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
