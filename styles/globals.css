@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { @apply bg-brand-steel text-slate-100; }
+.container { @apply max-w-7xl mx-auto px-4; }
+.btn { @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-medium shadow-sm hover:shadow; }
+.btn-primary { @apply btn bg-white text-brand-navy; }
+.btn-outline { @apply btn border border-white/60 text-white; }
+.card { @apply rounded-2xl border border-white/10 shadow-sm bg-brand-navy/30; }
+.bg-surface { @apply bg-brand-navy/40; }
+.bg-panel { @apply bg-brand-navy2; }
+header { @apply bg-brand-navy/40; }
+footer { @apply bg-brand-navy/60 text-slate-200; }
+a { @apply hover:opacity-90; }
+
+/* MARQUEE LOGOS */
+.marquee { overflow: hidden; position: relative; }
+.marquee-track { display: flex; width: max-content; animation: marquee 28s linear infinite; }
+.marquee-group { display: flex; align-items: center; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
