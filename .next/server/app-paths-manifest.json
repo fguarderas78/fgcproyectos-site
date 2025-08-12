@@ -1,8 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/clientes/page": "app/clientes/page.js",
-  "/page": "app/page.js",
+  "/proyectos/page": "app/proyectos/page.js",
   "/quienes-somos/page": "app/quienes-somos/page.js",
-  "/galeria/page": "app/galeria/page.js",
-  "/proyectos/page": "app/proyectos/page.js"
+  "/clientes/page": "app/clientes/page.js",
+  "/page": "app/page.js"
 }
